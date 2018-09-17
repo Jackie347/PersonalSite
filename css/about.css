@@ -5,19 +5,22 @@
 	text-align: center;
 }
 
-#cv{
+.cv{
 	width: 800px;
 	margin: 0 auto;
 }
 
 .tabletitle{
 	font-weight: bold;
-
+	text-align: left;
+	border-style:none none double none;
 }
-
-#cv ul{
+.cv ul{
 	padding-left: 20px;
 	margin: 0;
+}
+.right{
+	text-align: right;
 }
 
 
