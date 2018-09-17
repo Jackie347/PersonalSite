@@ -1,0 +1,91 @@
+#content{
+	width: 950px;
+	margin: 0 auto;
+	padding-bottom: 250px;
+}
+.snav {
+	width: 300px;
+	float: right;
+}
+.snav ul{
+	padding: 0;
+	margin: 0 40px;
+}
+.list{
+	list-style-type: none;
+	float: left;
+	margin: 5px 5px;	
+}
+.list img{
+	width: 100px;
+	height: 100px;
+}
+.pic-container{
+	width:650px;
+	margin: 25px 300px 0 auto;
+	padding-top: 5px;
+}
+.pic{
+	max-width: 100%;
+    max-height: 100%;
+}
+footer{
+	float: left;
+	clear: both;
+}
+
+
+/******************************************************
+	Media Query Adjustments Based on screen size
+******************************************************/
+/* for 1024px or less */
+@media screen and (max-width: 1024px){
+	#content{		
+		width: 80%; 	
+	}
+	.snav{
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.snav ul{
+		padding: 0;
+		margin: 0 auto;
+		text-align: justify;
+	}
+	.list{
+		display: inline-block;
+	}
+	.list img{
+		width: 80px;
+		height: 80px;
+	}
+	.pic-container{
+		width: 100%;
+		margin: 20px auto;
+	}
+}
+
+/* for 800px or less */
+@media screen and (max-width: 800px){
+	.list img{
+		width: 70px;
+		height: 70px;
+	}
+}
+
+/* for 650px or less */
+@media screen and (max-width: 650px){
+	.list img{
+		width: 60px;
+		height: 60px;
+	}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px){
+	.list img{
+		width: 50px;
+		height: 50px;
+	}
+}

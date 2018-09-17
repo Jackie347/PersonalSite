@@ -1,0 +1,26 @@
+body {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 0;
+}
+
+
+/******************************************************
+	Media Query Adjustments Based on screen size
+******************************************************/
+/* for 1024px or less */
+@media screen and (max-width: 1024px){
+
+}
+
+/* for 650px or less */
+@media screen and (max-width: 650px){
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px){
+	.title{
+		padding-top: 40px;
+	}
+}

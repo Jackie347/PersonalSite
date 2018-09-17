@@ -1,0 +1,74 @@
+/******************************************************
+	Basic Beginning Structure for normal screens
+******************************************************/
+.tablehead h3,p{
+	text-align: center;
+}
+
+#cv{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.tabletitle{
+	font-weight: bold;
+
+}
+
+#cv ul{
+	padding-left: 20px;
+	margin: 0;
+}
+
+
+/******************************************************
+	Media Query Adjustments Based on screen size
+******************************************************/
+/* for 1024px or less */
+@media screen and (max-width: 1024px){
+	#content{		
+		width: 80%; 	
+	}
+	.tablehead{
+		width: 100%;
+	}
+	.cv{
+		width: 100%;
+	}
+}
+
+/* for 800px or less */
+@media screen and (max-width: 800px){
+	#content{		
+		width: 90%; 
+	}
+	.tablehead{
+		width: 100%;
+	}
+	.cv{
+		width: 100%;
+	}
+}
+
+/* for 650px or less */
+@media screen and (max-width: 650px){
+	.tablehead{
+		width: 100%;
+	}
+	.tablehead h3{
+		font-size: 1.2em;
+	}
+	.cv{
+		width: 100%;
+	}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px){
+	.tablehead{
+		width: 100%;
+	}
+	.cv{
+		width: 100%;
+	}
+}

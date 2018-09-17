@@ -1,0 +1,87 @@
+/******************************************************
+	Basic Beginning Structure for normal screens
+******************************************************/
+.video-container{
+	margin: 30px auto;
+	text-align: center;
+}
+.video{
+	display: inline-block;
+}
+
+.reading{
+	width: 728px;
+	margin: 0 auto;
+}
+
+
+/******************************************************
+	Media Query Adjustments Based on screen size
+******************************************************/
+/* for 1024px or less */
+@media screen and (max-width: 1024px){
+	#content{		
+		width: 80%; 	
+	}
+	.tender{
+		width: 100%;
+	}
+	.video{
+		width: 560px;
+		height: 315px;
+	}
+	.reading{
+		width: 80%;
+	}
+}
+
+/* for 800px or less */
+@media screen and (max-width: 800px){
+	#content{		
+		width: 90%; 
+	}
+	.tender{
+		width: 100%;
+	}
+	.video{
+		width: 448px;
+		height: 252px;
+	}
+	.reading{
+		width: 80%;
+	}
+}
+
+/* for 650px or less */
+@media screen and (max-width: 650px){
+	#content{		
+		width: 80%; 
+	}
+	.tender{
+		width: 100%;
+	}
+	.video{
+		width: 358.4px;
+		height: 201.6px;
+	}
+	.reading{
+		width: 80%;
+	}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px){
+	#content{
+		width: 80%; 
+	}
+	.tender{
+		width: 100%;
+	}
+	.video{
+		width: 322px;
+		height: 181.44px;
+	}
+	.reading{
+		width: 90%;
+	}
+}
