@@ -1,8 +1,15 @@
+table div{
+	word-wrap: break-word;
+	word-break:break-all;
+}
 .table th{
 	width:14%;
 }
 .table td{
 	width:14%;
+}
+.planlist{
+	margin-bottom: 20px;
 }
 .planlist ul{
 	padding: 0;
@@ -16,6 +23,7 @@
 }
 .plan{
 	background-color: #f8f9fa;
+	margin-bottom: 20px;
 }
 .plan h3{
 	text-align: center;
