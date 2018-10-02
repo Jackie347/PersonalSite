@@ -1,16 +1,7 @@
-.title{
-	text-align: center;
-	font-size: 3em;
-	padding: 40px 0 20px 0;
-	margin: 0 auto;
+.navbar{
+	margin-bottom: 20px;
 }
 
-
-/******************************************************
-	Media Query Adjustments Based on screen size
-******************************************************/
-@media screen and (max-width: 650px){
-	.nav a{
-		line-height: 40px;
-	}
+.breadcrumb{
+	background-color: #ffffff;
 }

@@ -1,23 +1,10 @@
 /******************************************************
 					  Hello Img
 ******************************************************/
-.hello{
-	width: 800px;
-	margin: 25px auto;
-}
-.hello div{
-	margin:0 auto 25px auto;
-}
-.imgcontainer{
-	width: 800px;
-}
-.hello img{
-	width: 100%;
-}
-.hello a:link, .hello a:visited{
+.movie-link a:link, .movie-link a:visited{
 	color: #3399cc;
 }
-.hello a:hover, .hello a:active{
+.movie-link a:hover, .movie-link a:active{
 	color: #cc9933;
 }
 
@@ -25,47 +12,18 @@
 /******************************************************
 				Contact information
 ******************************************************/
-.info{
-	width: 800px;
-}
 .info h4{
 	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 
 /******************************************************
-	Media Query Adjustments Based on screen size
+					Contact Link
 ******************************************************/
-/* for 1024px or less */
-@media screen and (max-width: 1024px){
-	#content{		
-		width: 80%; 	
-	}
-	.hello{
-		width: 100%;
-	}
-	.imgcontainer{
-		width: 100%;
-	}
-	.info{
-		width: 100%;
-	}
+.img-fluid{
+	margin-bottom: 10px;
 }
-
-/* for 800px or less */
-@media screen and (max-width: 800px){
-	#content{		
-		width: 90%; 
-	}
+.contact-link{
+	text-align: center;
 }
-
-/* for 650px or less */
-@media screen and (max-width: 650px){
-	#content{		
-		width: 80%; 
-	}
-}
-
-
-
-

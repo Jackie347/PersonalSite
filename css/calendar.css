@@ -1,0 +1,39 @@
+.table th{
+	width:14%;
+}
+.table td{
+	width:14%;
+}
+.planlist ul{
+	padding: 0;
+}
+.planlist li{
+	list-style-type: none;
+}
+.btn{
+	display: block;
+	margin: 40px auto;
+}
+.plan{
+	background-color: #f8f9fa;
+}
+.plan h3{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.plan li{
+	list-style-type: none;
+}
+.selected_elem{
+	background-color: #ffc107;
+}
+#date{
+	text-align: center;
+	font-size: 2em;
+	line-height: 2em;
+}
+@media print {
+	.no-print{
+		display:none;
+	}
+}
