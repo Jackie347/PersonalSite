@@ -1,0 +1,55 @@
+/******************************************************
+					background image
+******************************************************/
+body{
+	background-image: url("../img/bg.jpg");
+	background-position: center 0; 
+	background-repeat: no-repeat;  
+	background-attachment: fixed;  
+	background-size: cover;  
+	-webkit-background-size: cover;  
+	-o-background-size: cover;  
+	-moz-background-size: cover;  
+	-ms-background-size: cover;
+}
+
+
+/******************************************************
+	Media Query Adjustments Based on screen size
+******************************************************/
+/* for 992px or less */
+@media screen and (max-width: 992px){
+	.title{
+		font-size: 4em;
+	}
+	.introduction{
+		font-size: 1.4em;
+	}
+	.nav a{
+		width: 110px;
+	}
+}
+
+/* for 768px or less */
+@media screen and (max-width: 768px){
+	.title{
+		font-size: 3em;
+	}
+	.introduction{
+		font-size: 1.1em;
+	}
+	.nav a{
+		font-size: 0.9em;
+		width: 90px;
+	}
+}
+
+/* for 360px or less */
+@media screen and (max-width: 360px){
+	.title{
+		padding: 80px 0 20px 0;
+	}	
+	.nav{
+		display: block;
+	}
+}

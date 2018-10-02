@@ -1,0 +1,29 @@
+/******************************************************
+					  Hello Img
+******************************************************/
+.movie-link a:link, .movie-link a:visited{
+	color: #3399cc;
+}
+.movie-link a:hover, .movie-link a:active{
+	color: #cc9933;
+}
+
+
+/******************************************************
+				Contact information
+******************************************************/
+.info h4{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+
+/******************************************************
+					Contact Link
+******************************************************/
+.img-fluid{
+	margin-bottom: 10px;
+}
+.contact-link{
+	text-align: center;
+}
